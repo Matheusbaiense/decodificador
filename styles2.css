@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #7ad7f0 0%, #3490de 100%);
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto; /* Centralizando o container na horizontal e definindo a margem superior */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.input-container {
+  margin: 0 auto; /* Centralizando a input-container na horizontal */
+  width: 80%; /* Definindo uma largura para a input-container */
+}
+
+.output-container {
+  margin: 0 auto; /* Centralizando o output-container na horizontal */
+  width: 80%; /* Definindo uma largura para o output-container */
+  max-width: 100%; /* Definindo uma largura máxima para o output-container */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+button:focus {
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  margin-top: 25px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+footer {
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
